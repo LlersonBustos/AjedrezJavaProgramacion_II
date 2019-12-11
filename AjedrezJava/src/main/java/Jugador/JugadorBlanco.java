@@ -20,7 +20,7 @@ public class JugadorBlanco extends Jugador{
     
     @Override
     public Collection<Pieza> getPiezasActivas(){
-        return this.tablero.getPiezasNegras();
+        return this.tablero.getPiezasBlancas();
     }
     
     @Override
